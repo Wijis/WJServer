@@ -1,12 +1,12 @@
 /*
  * =====================================================================================
  *
- *       Filename:  IWJService.h
+ *       Filename:  KeyWordDefine.h
  *
  *    Description:  
  *
  *        Version:  1.0
- *        Created:  04/15/2015 15:53:14
+ *        Created:  04/15/2015 16:19:08
  *       Revision:  none
  *       Compiler:  gcc
  *
@@ -16,24 +16,15 @@
  * =====================================================================================
  */
 
-struct SWJErrorInfo
-{
+#ifndef interface // Define Interface Keyword
+#define interface struct
+#endif
 
-};
+#ifndef IN // Define Input Parameters
+#define IN 
+#endif
 
-struct SWJPackage
-{
+#ifndef OUT // Define Output Parameters
+#define OUT
+#endif
 
-};
-
-struct SWJServiceID
-{
-	// 可能是一个MD5码 + 描述信息
-};
-
-interface IWJService
-{
-	SWJServiceID getServiceID(); // 服务信息
-	SWJErrorInfo excute(IN SWJPackage *inPackage, OUT SWJPackage** outPackage); // 服务执行
-
-};
