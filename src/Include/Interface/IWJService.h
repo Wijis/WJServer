@@ -16,24 +16,15 @@
  * =====================================================================================
  */
 
-struct SWJErrorInfo
-{
-
-};
-
-struct SWJPackage
-{
-
-};
-
+struct SWJErrorInfo;
+struct SWJPackage;
 struct SWJServiceID
 {
-	// 可能是一个MD5码 + 描述信息
+	// Maybe a md5 code and description
 };
 
-interface IWJService
+struct IWJService
 {
-	SWJServiceID getServiceID(); // 服务信息
-	SWJErrorInfo excute(IN SWJPackage *inPackage, OUT SWJPackage** outPackage); // 服务执行
-
+	virtual SWJServiceID getServiceID() = 0; // 服务信息
+	virtual SWJErrorInfo* excute(IN SWJPackage *inPackage, OUT SWJPackage** outPackage) = 0; // 服务执行
 };

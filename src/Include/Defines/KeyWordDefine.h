@@ -16,9 +16,9 @@
  * =====================================================================================
  */
 
-#ifndef interface // Define Interface Keyword
-#define interface struct
-#endif
+// #ifndef interface // Define Interface Keyword
+// #define interface struct
+// #endif
 
 #ifndef IN // Define Input Parameters
 #define IN 
@@ -27,4 +27,5 @@
 #ifndef OUT // Define Output Parameters
 #define OUT
 #endif
+
 
