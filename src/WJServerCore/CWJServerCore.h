@@ -16,28 +16,15 @@
  * =====================================================================================
  */
 
-struct SWJPackage;
-
-enum EWJServerCoreStatus
-{
-	CoreReady,
-	CoreRunning,
-	CorePause,
-};
-
-struct SWJServerCoreConfig
-{
-
-};
-
-class CWJServerCore
+class CWJServerCore : public IWJServerCore // Main Thread
 {
 public:
-	void setConfig(SWJServerCoreConfig* config); // set Config to Core
-
-	EWJServerCoreStatus getCoreStatus();
-	void reset(); // Core Reset
+	// Interface WJServerCore
+	EWJThreadStatus getCoreStatus();
 	void run(); // Core Run
 	void stop(); // Core Stop
 	void pause(); // Core Pause
+
+	// Interface WJProcessor
+	// void process(IN SWJPackage* pInPkg, OUT SWJPackage** ppOutPkg);
 };

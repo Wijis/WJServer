@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>35FA47EE-113A-4DF6-98DF-2F306383BB70</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1D22D4878AA329FE6C224166B49B0C0BC74C77FA</key>
+		<string>https://github.com/Wijis/WJServer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>src/WJServerTest/CWJThreadTest/CWJThreadTest/CWJThreadTest.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1D22D4878AA329FE6C224166B49B0C0BC74C77FA</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Wijis/WJServer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1D22D4878AA329FE6C224166B49B0C0BC74C77FA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D22D4878AA329FE6C224166B49B0C0BC74C77FA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>WJServer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
